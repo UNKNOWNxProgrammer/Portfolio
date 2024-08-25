@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const About = () => {
   
@@ -8,7 +9,7 @@ const About = () => {
     <div id='about' className='bg-white flex flex-col gap-16 xl:gap-24 items-center py-14 xl:py-20 px-3 w-full md:w-[90%] lg:w-[80%] xl:w-[75%] 2xl:w-[50%] 3xl:w-[40%] mx-auto h-full'>
       <div className='flex flex-col xl:flex-row gap-10 items-center'>
       <div className='rounded-lg flex '>
-        <img src="/img/about.webp" alt="" className='rounded-lg' width={500}/>
+        <Image src="/img/about.webp" alt="" className='rounded-lg' width={500}/>
       </div>
 
       <div className='flex flex-col'>
@@ -38,7 +39,7 @@ const About = () => {
         </div>
       </div>
       <div className='rounded-lg flex '>
-        <img src="/img/layout.jpg" alt="" className='rounded-lg' width={500}/>
+        <Image src="/img/layout.jpg" alt="" className='rounded-lg' width={500}/>
       </div>
       </div>
 
